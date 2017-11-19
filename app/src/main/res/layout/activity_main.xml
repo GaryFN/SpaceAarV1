@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutprincipal"
+    android:background="@drawable/backgroundlostplanet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/Title"
+        android:textColor="@android:color/background_light"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hola"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="225dp"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/fondoprincipal" />
+
+    <TextView
+        android:id="@+id/txtBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="........"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/IniciarJuego"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/Acercade"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/Acercade"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="278dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/Salir"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+</LinearLayout>

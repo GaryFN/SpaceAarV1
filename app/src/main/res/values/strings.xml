@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpaceAarV1</string>
+    <string name="IniciarJuego">Iniciar Juego</string>
+    <string name="Acercade">Acerca de</string>
+    <string name="Salir">Salir</string>
+    <string name="Title">Lost Planet</string>
+    <string name="contacFull">GaryFuentes ©CopyRight 2017. Todos los derechos reservados </string>
+    <string name="contacemail">Contactar</string>
+
+</resources>

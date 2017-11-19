@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('Actual8-debug.aar'))
